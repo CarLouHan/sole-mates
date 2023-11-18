@@ -1,0 +1,137 @@
+/*Style för yttre Div*/
+.wrapper {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+/*Style för header*/
+.banner {
+  width: 100%;
+  display: block;
+}
+
+/*Meny*/
+nav {
+  margin: 5% 3% 0% 0%;
+  font-size: x-large;
+  display: flex;
+  float: right;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* style för section */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+section h1 {
+  flex-basis: 100%;
+  margin: 5% 0 1% 0%;
+}
+
+section h2 {
+  flex-basis: 100%;
+  margin: 5% 0 1% 0;
+}
+
+section div {
+  margin: 1% 0 5% 0;
+}
+
+section div p {
+  font-size: x-large;
+}
+
+/* style för index-sidan */
+
+.pIndex {
+  width: 50%;
+}
+
+.imgIndex {
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 4rem;
+}
+
+/* style för blogsidan */
+
+#thumb {
+  width: 21vw;
+}
+
+figure {
+  margin: 0;
+}
+
+#blogText {
+  width: 43vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
+aside {
+  width: 10vw;
+  font-size: large;
+}
+
+div aside li a {
+  padding: 5px;
+  display: block;
+  color: lightgray;
+}
+
+/* Style för About-sidan */
+
+.pAbout {
+  width: 40rem;
+  margin-right: 2rem;
+}
+
+.imgAbout {
+  width: 40rem;
+  box-sizing: border-box;
+  margin-left: 5rem;
+}
+
+/* Style för Contact-sidan */
+
+form {
+  margin-bottom: 10vh;
+  width: 100%;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  margin: 1vh 1vw 2vh 0;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  margin: 1vh 1vw 1vh 0;
+}
+
+/*Style för footer */
+
+footer {
+  padding: 10px;
+  margin-bottom: 100px;
+}
